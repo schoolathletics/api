@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class SchoolAthletics\Admin\Schedule</title>
+	<title>Class SchoolAthletics\Schedule</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -28,7 +28,7 @@
 
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="namespace-SchoolAthletics.Admin.html" title="Summary of SchoolAthletics\Admin"><span>Namespace</span></a>
+						<a href="namespace-SchoolAthletics.html" title="Summary of SchoolAthletics"><span>Namespace</span></a>
 					</li>
 					<li class="active">
 <span>Class</span>					</li>
@@ -53,9 +53,19 @@
 							SchoolAthletics<span></span>
 						</a>
 							<ul>
-					<li class="active">
+					<li>
 						<a href="namespace-SchoolAthletics.Admin.html">
-							Admin						</a>
+							Admin<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-SchoolAthletics.Admin.Pages.html">
+							Pages						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-SchoolAthletics.Widgets.html">
+							Widgets						</a>
 							</li>
 								</ul></li>
 			</ul>
@@ -65,15 +75,15 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
-				<li><a href="class-SchoolAthletics.Admin.Admin.html">Admin</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Menus.html">Menus</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Notice.html">Notice</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Page.html">Page</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Roster.html">Roster</a></li>
-				<li class="active"><a href="class-SchoolAthletics.Admin.Schedule.html">Schedule</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Settings.html">Settings</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Sports.html">Sports</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Staff.html">Staff</a></li>
+				<li><a href="class-SchoolAthletics.Debug.html">Debug</a></li>
+				<li><a href="class-SchoolAthletics.Install.html">Install</a></li>
+				<li><a href="class-SchoolAthletics.InstallWpObjects.html">InstallWpObjects</a></li>
+				<li><a href="class-SchoolAthletics.Roster.html">Roster</a></li>
+				<li class="active"><a href="class-SchoolAthletics.Schedule.html">Schedule</a></li>
+				<li><a href="class-SchoolAthletics.SchoolAthletics.html">SchoolAthletics</a></li>
+				<li><a href="class-SchoolAthletics.Shortcodes.html">Shortcodes</a></li>
+				<li><a href="class-SchoolAthletics.Sport.html">Sport</a></li>
+				<li><a href="class-SchoolAthletics.TemplateLoader.html">TemplateLoader</a></li>
 			</ul>
 
 
@@ -96,20 +106,6 @@
 	<p>Schedule Class.</p>
 	</div>
 
-	<dl class="tree well">
-		<dd style="padding-left:0px">
-			<a href="class-SchoolAthletics.Admin.Page.html"><span>SchoolAthletics\Admin\Page</span></a>
-			
-			
-			
-		</dd>
-		<dd style="padding-left:30px">
-			<img src="resources/inherit.png" alt="Extended by">
-<b><span>SchoolAthletics\Admin\Schedule</span></b>			
-			
-			
-		</dd>
-	</dl>
 
 
 
@@ -121,10 +117,10 @@
 	<div class="alert alert-info">
 		
 		
-		<b>Namespace:</b> <a href="namespace-SchoolAthletics.html">SchoolAthletics</a>\<a href="namespace-SchoolAthletics.Admin.html">Admin</a><br>
+		<b>Namespace:</b> <a href="namespace-SchoolAthletics.html">SchoolAthletics</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-SchoolAthletics.Admin.Schedule.html#17-34" title="Go to source code">includes/admin/class-Schedule.php</a>
+			<b>Located at</b> <a href="source-class-SchoolAthletics.Schedule.html#18-56" title="Go to source code">includes/class-Schedule.php</a>
 		<br>
 	</div>
 
@@ -144,27 +140,25 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Schedule.html#22-25" title="Go to source code">__construct</a>( )</code>
+			<code><a href="source-class-SchoolAthletics.Schedule.html#23-28" title="Go to source code">__construct</a>( )</code>
 
 			<div class="description short">
-				
+				<p>Hook in methods.</p>
 			</div>
 
 			<div class="description detailed hidden">
-				
+				<p>Hook in methods.</p>
 
 
 
 
 
 
-					<h4>Overrides</h4>
-					<div class="list"><code><a href="class-SchoolAthletics.Admin.Page.html#___construct">SchoolAthletics\Admin\Page::__construct</a></code></div>
 
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="output" id="_output">
+		<tr data-order="getEvents" id="_getEvents">
 
 			<td class="attributes"><code>
 				 public static
@@ -174,15 +168,15 @@
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_output">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Schedule.html#27-32" title="Go to source code">output</a>( )</code>
+			<a class="anchor" href="#_getEvents">#</a>
+			<code><a href="source-class-SchoolAthletics.Schedule.html#30-54" title="Go to source code">getEvents</a>( <span> <var>$sport</var></span>, <span> <var>$season</var></span> )</code>
 
 			<div class="description short">
-				<p>Handles output of the settings page in admin.</p>
+				<p>Get Schedule Events</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Handles output of the settings page in admin.</p>
+				<p>Get Schedule Events</p>
 
 
 
@@ -196,14 +190,6 @@
 			</table>
 		</div>
 
-		<div class="panel panel-default">
-	        <div class="panel-heading"><h3>Methods inherited from <a href="class-SchoolAthletics.Admin.Page.html#methods">SchoolAthletics\Admin\Page</a></h3></div>
-			<p class="elementList">
-				<code><a href="class-SchoolAthletics.Admin.Page.html#_footer_text">footer_text()</a></code>, 
-				<code><a href="class-SchoolAthletics.Admin.Page.html#_header">header()</a></code>, 
-				<code><a href="class-SchoolAthletics.Admin.Page.html#_wizard">wizard()</a></code>
-			</p>
-		</div>
 
 
 

@@ -55,7 +55,17 @@
 							<ul>
 					<li class="active">
 						<a href="namespace-SchoolAthletics.Admin.html">
-							Admin						</a>
+							Admin<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-SchoolAthletics.Admin.Pages.html">
+							Pages						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-SchoolAthletics.Widgets.html">
+							Widgets						</a>
 							</li>
 								</ul></li>
 			</ul>
@@ -69,11 +79,6 @@
 				<li><a href="class-SchoolAthletics.Admin.Menus.html">Menus</a></li>
 				<li><a href="class-SchoolAthletics.Admin.Notice.html">Notice</a></li>
 				<li class="active"><a href="class-SchoolAthletics.Admin.Page.html">Page</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Roster.html">Roster</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Schedule.html">Schedule</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Settings.html">Settings</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Sports.html">Sports</a></li>
-				<li><a href="class-SchoolAthletics.Admin.Staff.html">Staff</a></li>
 			</ul>
 
 
@@ -101,11 +106,14 @@
 	<div>
 		<h3>Direct known subclasses</h3>
 		<p class="elementList">
-			<code><a href="class-SchoolAthletics.Admin.Roster.html">SchoolAthletics\Admin\Roster</a></code>, 
-			<code><a href="class-SchoolAthletics.Admin.Schedule.html">SchoolAthletics\Admin\Schedule</a></code>, 
-			<code><a href="class-SchoolAthletics.Admin.Settings.html">SchoolAthletics\Admin\Settings</a></code>, 
-			<code><a href="class-SchoolAthletics.Admin.Sports.html">SchoolAthletics\Admin\Sports</a></code>, 
-			<code><a href="class-SchoolAthletics.Admin.Staff.html">SchoolAthletics\Admin\Staff</a></code>
+			<code><a href="class-SchoolAthletics.Admin.Pages.Organizations.html">SchoolAthletics\Admin\Pages\Organizations</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.Roster.html">SchoolAthletics\Admin\Pages\Roster</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.Schedule.html">SchoolAthletics\Admin\Pages\Schedule</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.SchoolAthletics.html">SchoolAthletics\Admin\Pages\SchoolAthletics</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.Settings.html">SchoolAthletics\Admin\Pages\Settings</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.Sports.html">SchoolAthletics\Admin\Pages\Sports</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.Staff.html">SchoolAthletics\Admin\Pages\Staff</a></code>, 
+			<code><a href="class-SchoolAthletics.Admin.Pages.YourSchool.html">SchoolAthletics\Admin\Pages\YourSchool</a></code>
 		</p>
 	</div>
 
@@ -120,7 +128,7 @@
 		<b>Namespace:</b> <a href="namespace-SchoolAthletics.html">SchoolAthletics</a>\<a href="namespace-SchoolAthletics.Admin.html">Admin</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-SchoolAthletics.Admin.Page.html#17-49" title="Go to source code">includes/admin/class-Page.php</a>
+			<b>Located at</b> <a href="source-class-SchoolAthletics.Admin.Page.html#17-89" title="Go to source code">includes/admin/class-Page.php</a>
 		<br>
 	</div>
 
@@ -140,7 +148,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Page.html#22-25" title="Go to source code">__construct</a>( )</code>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#22-37" title="Go to source code">__construct</a>( )</code>
 
 			<div class="description short">
 				
@@ -169,7 +177,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_header">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Page.html#27-32" title="Go to source code">header</a>( )</code>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#39-44" title="Go to source code">header</a>( )</code>
 
 			<div class="description short">
 				<p>Admin page header</p>
@@ -177,6 +185,35 @@
 
 			<div class="description detailed hidden">
 				<p>Admin page header</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="scripts" id="_scripts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_scripts">#</a>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#46-51" title="Go to source code">scripts</a>( )</code>
+
+			<div class="description short">
+				<p>Probably should load scripts and styles with this. But it doesn't work yet, so just calling wp_enqueue_style() in the __construct.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Probably should load scripts and styles with this. But it doesn't work yet, so just calling wp_enqueue_style() in the __construct.</p>
 
 
 
@@ -198,7 +235,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_footer_text">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Page.html#34-40" title="Go to source code">footer_text</a>( )</code>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#53-59" title="Go to source code">footer_text</a>( )</code>
 
 			<div class="description short">
 				<p>Admin page foot text</p>
@@ -227,7 +264,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_wizard">#</a>
-			<code><a href="source-class-SchoolAthletics.Admin.Page.html#42-47" title="Go to source code">wizard</a>( )</code>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#61-66" title="Go to source code">wizard</a>( )</code>
 
 			<div class="description short">
 				<p>Form to force season and sport choice.</p>
@@ -235,6 +272,35 @@
 
 			<div class="description detailed hidden">
 				<p>Form to force season and sport choice.</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="parse_csv" id="_parse_csv">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_parse_csv">#</a>
+			<code><a href="source-class-SchoolAthletics.Admin.Page.html#68-87" title="Go to source code">parse_csv</a>( <span> <var>$csv</var></span> )</code>
+
+			<div class="description short">
+				<p>Parse CSV string with , delimiter and line break to end row.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Parse CSV string with , delimiter and line break to end row.</p>
 
 
 
